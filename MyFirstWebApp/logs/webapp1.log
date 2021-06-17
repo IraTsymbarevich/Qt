@@ -1,0 +1,113 @@
+15.06.2021 15:36:33.076 0 DEBUG    0x000027e4 HttpConnectionHandler (0x1c9140): handle new connection
+15.06.2021 15:37:11.252 0 DEBUG    0x000027e4 HttpRequest: from ::1: GET /login?username=test&password=wrong HTTP/1.1
+15.06.2021 15:37:11.252 0 DEBUG    0x000027e4 HttpConnectionHandler (0x1c9140): received request
+15.06.2021 15:37:11.252 0 DEBUG    0x000027e4 RequestMapper: path=/login
+15.06.2021 15:37:11.252 0 DEBUG    0x000027e4 HttpSessionStore: received invalid session cookie with ID {e3fca77b-9694-4fe7-aaca-8e2cf398725a}
+15.06.2021 15:37:11.252 0 DEBUG    0x000027e4 HttpSessionStore: received invalid session cookie with ID {e3fca77b-9694-4fe7-aaca-8e2cf398725a}
+15.06.2021 15:37:11.253 0 DEBUG    0x000027e4 HttpSessionStore: create new session with ID {3ff790c0-16aa-4b05-a142-be7cab0493e5}
+15.06.2021 15:37:11.253 0 DEBUG    0x000027e4 username=test
+15.06.2021 15:37:11.253 0 DEBUG    0x000027e4 password=wrong
+15.06.2021 15:37:11.253 2 CRITICAL 0x000027e4 Login failed!
+15.06.2021 15:38:56.118 0 DEBUG    0x00002448 QtWebApp has version 1.8.3
+15.06.2021 15:38:56.118 0 DEBUG    0x00002448 HttpSessionStore: Sessions expire after 3600000 milliseconds
+15.06.2021 15:38:56.119 0 DEBUG    0x00002448 StaticFileController: docroot=C:/Users/Lenovo/Documents/qt/MyFirstWebApp/docroot, encoding=UTF-8, maxAge=90000
+15.06.2021 15:38:56.119 0 DEBUG    0x00002448 StaticFileController: cache timeout=60000, size=1000000
+15.06.2021 15:38:56.119 0 DEBUG    0x00002448 TemplateLoader: path=C:/Users/Lenovo/Documents/qt/MyFirstWebApp/docroot, codec=UTF-8
+15.06.2021 15:38:56.119 0 DEBUG    0x00002448 TemplateCache: timeout=60000, size=1000000
+15.06.2021 15:38:56.155 0 DEBUG    0x00002448 HttpListener: Listening on port 8080
+15.06.2021 15:39:03.515 0 DEBUG    0x00002448 HttpConnectionHandler (0x819200): thread started
+15.06.2021 15:39:03.515 0 DEBUG    0x00002448 HttpConnectionHandler (0x819200): constructed
+15.06.2021 15:39:03.554 0 DEBUG    0x0000303c HttpConnectionHandler (0x819200): handle new connection
+15.06.2021 15:39:06.465 0 DEBUG    0x00002448 HttpConnectionHandler (0x819320): thread started
+15.06.2021 15:39:06.465 0 DEBUG    0x00002448 HttpConnectionHandler (0x819320): constructed
+15.06.2021 15:39:06.496 0 DEBUG    0x00001f78 HttpConnectionHandler (0x819320): handle new connection
+15.06.2021 15:39:06.504 0 DEBUG    0x0000303c HttpRequest: from ::1: GET /hello HTTP/1.1
+15.06.2021 15:39:06.504 0 DEBUG    0x0000303c HttpConnectionHandler (0x819200): received request
+15.06.2021 15:39:06.505 0 DEBUG    0x0000303c RequestMapper: path=/hello
+15.06.2021 15:39:06.505 0 DEBUG    0x0000303c HttpSessionStore: received invalid session cookie with ID {3ff790c0-16aa-4b05-a142-be7cab0493e5}
+15.06.2021 15:39:06.505 0 DEBUG    0x0000303c RequestMapper: redirect to login page
+15.06.2021 15:39:06.505 0 DEBUG    0x0000303c HttpConnectionHandler (0x819200): finished request
+15.06.2021 15:39:06.548 0 DEBUG    0x0000303c HttpRequest: from ::1: GET /login HTTP/1.1
+15.06.2021 15:39:06.549 0 DEBUG    0x0000303c HttpConnectionHandler (0x819200): received request
+15.06.2021 15:39:06.549 0 DEBUG    0x0000303c RequestMapper: path=/login
+15.06.2021 15:39:06.549 0 DEBUG    0x0000303c HttpSessionStore: received invalid session cookie with ID {3ff790c0-16aa-4b05-a142-be7cab0493e5}
+15.06.2021 15:39:06.549 0 DEBUG    0x0000303c HttpSessionStore: received invalid session cookie with ID {3ff790c0-16aa-4b05-a142-be7cab0493e5}
+15.06.2021 15:39:06.549 0 DEBUG    0x0000303c HttpSessionStore: create new session with ID {4b7ea7ed-4cf0-45f2-bc72-ca0f09b7e409}
+15.06.2021 15:39:06.549 0 DEBUG    0x0000303c username=
+15.06.2021 15:39:06.549 0 DEBUG    0x0000303c password=
+15.06.2021 15:39:06.550 0 DEBUG    0x0000303c RequestMapper: finished request
+15.06.2021 15:39:06.550 0 DEBUG    0x0000303c HttpConnectionHandler (0x819200): finished request
+15.06.2021 15:40:06.491 0 DEBUG    0x00001f78 HttpConnectionHandler (0x819320): read timeout occured
+15.06.2021 15:40:06.491 0 DEBUG    0x00001f78 HttpConnectionHandler (0x819320): disconnected
+15.06.2021 15:40:06.539 0 DEBUG    0x0000303c HttpConnectionHandler (0x819200): read timeout occured
+15.06.2021 15:40:06.539 0 DEBUG    0x0000303c HttpConnectionHandler (0x819200): disconnected
+15.06.2021 15:41:53.614 0 DEBUG    0x000005ec User:{currentUser} QtWebApp has version 1.8.3
+15.06.2021 15:41:53.615 0 DEBUG    0x000005ec User:{currentUser} HttpSessionStore: Sessions expire after 3600000 milliseconds
+15.06.2021 15:41:53.615 0 DEBUG    0x000005ec User:{currentUser} StaticFileController: docroot=C:/Users/Lenovo/Documents/qt/MyFirstWebApp/docroot, encoding=UTF-8, maxAge=90000
+15.06.2021 15:41:53.615 0 DEBUG    0x000005ec User:{currentUser} StaticFileController: cache timeout=60000, size=1000000
+15.06.2021 15:41:53.616 0 DEBUG    0x000005ec User:{currentUser} TemplateLoader: path=C:/Users/Lenovo/Documents/qt/MyFirstWebApp/docroot, codec=UTF-8
+15.06.2021 15:41:53.616 0 DEBUG    0x000005ec User:{currentUser} TemplateCache: timeout=60000, size=1000000
+15.06.2021 15:41:53.651 0 DEBUG    0x000005ec User:{currentUser} HttpListener: Listening on port 8080
+15.06.2021 15:41:56.232 0 DEBUG    0x000005ec User:{currentUser} HttpConnectionHandler (0xfa8fc0): thread started
+15.06.2021 15:41:56.232 0 DEBUG    0x000005ec User:{currentUser} HttpConnectionHandler (0xfa8fc0): constructed
+15.06.2021 15:41:56.233 0 DEBUG    0x000005ec User:{currentUser} HttpConnectionHandler (0xfa9020): thread started
+15.06.2021 15:41:56.234 0 DEBUG    0x000005ec User:{currentUser} HttpConnectionHandler (0xfa9020): constructed
+15.06.2021 15:41:56.260 0 DEBUG    0x000012cc User:{currentUser} HttpConnectionHandler (0xfa8fc0): handle new connection
+15.06.2021 15:41:56.267 0 DEBUG    0x000024d4 User:{currentUser} HttpConnectionHandler (0xfa9020): handle new connection
+15.06.2021 15:41:56.287 0 DEBUG    0x000024d4 User:{currentUser} HttpRequest: from ::1: GET /login?username=test&password=hello HTTP/1.1
+15.06.2021 15:41:56.287 0 DEBUG    0x000024d4 User:{currentUser} HttpConnectionHandler (0xfa9020): received request
+15.06.2021 15:41:56.287 0 DEBUG    0x000024d4 User:{currentUser} RequestMapper: path=/login
+15.06.2021 15:41:56.287 0 DEBUG    0x000024d4 User:{currentUser} HttpSessionStore: received invalid session cookie with ID {4b7ea7ed-4cf0-45f2-bc72-ca0f09b7e409}
+15.06.2021 15:41:56.287 0 DEBUG    0x000024d4 User: HttpSessionStore: received invalid session cookie with ID {4b7ea7ed-4cf0-45f2-bc72-ca0f09b7e409}
+15.06.2021 15:41:56.287 0 DEBUG    0x000024d4 User: HttpSessionStore: received invalid session cookie with ID {4b7ea7ed-4cf0-45f2-bc72-ca0f09b7e409}
+15.06.2021 15:41:56.288 0 DEBUG    0x000024d4 User: HttpSessionStore: create new session with ID {bd1d9b6e-ccf5-4935-a268-7ead2e4c0c11}
+15.06.2021 15:41:56.288 0 DEBUG    0x000024d4 User: username=test
+15.06.2021 15:41:56.288 0 DEBUG    0x000024d4 User: password=hello
+15.06.2021 15:41:56.289 0 DEBUG    0x000024d4 User: RequestMapper: finished request
+15.06.2021 15:41:56.289 0 DEBUG    0x000024d4 User: HttpConnectionHandler (0xfa9020): finished request
+15.06.2021 15:41:57.330 0 DEBUG    0x000024d4 User: HttpRequest: from ::1: GET /login?username=test&password=hello HTTP/1.1
+15.06.2021 15:41:57.331 0 DEBUG    0x000024d4 User: HttpConnectionHandler (0xfa9020): received request
+15.06.2021 15:41:57.331 0 DEBUG    0x000024d4 User: RequestMapper: path=/login
+15.06.2021 15:41:57.331 0 DEBUG    0x000024d4 User:test username=test
+15.06.2021 15:41:57.331 0 DEBUG    0x000024d4 User:test password=hello
+15.06.2021 15:41:57.331 0 DEBUG    0x000024d4 User:test RequestMapper: finished request
+15.06.2021 15:41:57.332 0 DEBUG    0x000024d4 User:test HttpConnectionHandler (0xfa9020): finished request
+15.06.2021 15:42:56.261 0 DEBUG    0x000012cc User:{currentUser} HttpConnectionHandler (0xfa8fc0): read timeout occured
+15.06.2021 15:42:56.261 0 DEBUG    0x000012cc User:{currentUser} HttpConnectionHandler (0xfa8fc0): disconnected
+15.06.2021 15:42:57.321 0 DEBUG    0x000024d4 User:test HttpConnectionHandler (0xfa9020): read timeout occured
+15.06.2021 15:42:57.321 0 DEBUG    0x000024d4 User:test HttpConnectionHandler (0xfa9020): disconnected
+15.06.2021 15:45:48.089 0 DEBUG    0x000013a0 User:{currentUser} QtWebApp has version 1.8.3
+15.06.2021 15:45:48.090 0 DEBUG    0x000013a0 User:{currentUser} HttpSessionStore: Sessions expire after 3600000 milliseconds
+15.06.2021 15:45:48.091 0 DEBUG    0x000013a0 User:{currentUser} StaticFileController: docroot=C:/Users/Lenovo/Documents/qt/MyFirstWebApp/docroot, encoding=UTF-8, maxAge=90000
+15.06.2021 15:45:48.091 0 DEBUG    0x000013a0 User:{currentUser} StaticFileController: cache timeout=60000, size=1000000
+15.06.2021 15:45:48.092 0 DEBUG    0x000013a0 User:{currentUser} TemplateLoader: path=C:/Users/Lenovo/Documents/qt/MyFirstWebApp/docroot, codec=UTF-8
+15.06.2021 15:45:48.092 0 DEBUG    0x000013a0 User:{currentUser} TemplateCache: timeout=60000, size=1000000
+15.06.2021 15:45:48.129 0 DEBUG    0x000013a0 User:{currentUser} HttpListener: Listening on port 8080
+15.06.2021 15:45:51.747 0 DEBUG    0x000013a0 User:{currentUser} HttpConnectionHandler (0xfd91a0): thread started
+15.06.2021 15:45:51.748 0 DEBUG    0x000013a0 User:{currentUser} HttpConnectionHandler (0xfd91a0): constructed
+15.06.2021 15:45:51.748 0 DEBUG    0x000013a0 User:{currentUser} HttpConnectionHandler (0xfd8ea0): thread started
+15.06.2021 15:45:51.748 0 DEBUG    0x000013a0 User:{currentUser} HttpConnectionHandler (0xfd8ea0): constructed
+15.06.2021 15:45:51.771 0 DEBUG    0x00003164 User:{currentUser} HttpConnectionHandler (0xfd91a0): handle new connection
+15.06.2021 15:45:51.785 0 DEBUG    0x0000181c User:{currentUser} HttpConnectionHandler (0xfd8ea0): handle new connection
+15.06.2021 15:45:51.802 0 DEBUG    0x0000181c User:{currentUser} HttpRequest: from ::1: GET /login?username=test&password=hello HTTP/1.1
+15.06.2021 15:45:51.802 0 DEBUG    0x0000181c User:{currentUser} HttpConnectionHandler (0xfd8ea0): received request
+15.06.2021 15:45:51.803 0 DEBUG    0x0000181c User:{currentUser} RequestMapper: path=/login
+15.06.2021 15:45:51.803 0 DEBUG    0x0000181c User:{currentUser} HttpSessionStore: received invalid session cookie with ID {bd1d9b6e-ccf5-4935-a268-7ead2e4c0c11}
+15.06.2021 15:45:51.803 0 DEBUG    0x0000181c User: HttpSessionStore: received invalid session cookie with ID {bd1d9b6e-ccf5-4935-a268-7ead2e4c0c11}
+15.06.2021 15:45:51.803 0 DEBUG    0x0000181c User: HttpSessionStore: received invalid session cookie with ID {bd1d9b6e-ccf5-4935-a268-7ead2e4c0c11}
+15.06.2021 15:45:51.803 0 DEBUG    0x0000181c User: HttpSessionStore: create new session with ID {3f4821cd-3e59-476c-9306-6685dd4b1d39}
+15.06.2021 15:45:51.803 0 DEBUG    0x0000181c User: username=test
+15.06.2021 15:45:51.803 0 DEBUG    0x0000181c User: password=hello
+15.06.2021 15:45:51.804 0 DEBUG    0x0000181c User: RequestMapper: finished request
+15.06.2021 15:45:51.804 0 DEBUG    0x0000181c User:{currentUser} HttpConnectionHandler (0xfd8ea0): finished request
+15.06.2021 15:45:52.819 0 DEBUG    0x0000181c User:{currentUser} HttpRequest: from ::1: GET /login?username=test&password=hello HTTP/1.1
+15.06.2021 15:45:52.819 0 DEBUG    0x0000181c User:{currentUser} HttpConnectionHandler (0xfd8ea0): received request
+15.06.2021 15:45:52.819 0 DEBUG    0x0000181c User:{currentUser} RequestMapper: path=/login
+15.06.2021 15:45:52.819 0 DEBUG    0x0000181c User:test username=test
+15.06.2021 15:45:52.819 0 DEBUG    0x0000181c User:test password=hello
+15.06.2021 15:45:52.820 0 DEBUG    0x0000181c User:test RequestMapper: finished request
+15.06.2021 15:45:52.821 0 DEBUG    0x0000181c User:{currentUser} HttpConnectionHandler (0xfd8ea0): finished request
+15.06.2021 15:46:51.788 0 DEBUG    0x00003164 User:{currentUser} HttpConnectionHandler (0xfd91a0): read timeout occured
+15.06.2021 15:46:51.789 0 DEBUG    0x00003164 User:{currentUser} HttpConnectionHandler (0xfd91a0): disconnected
+15.06.2021 15:46:52.824 0 DEBUG    0x0000181c User:{currentUser} HttpConnectionHandler (0xfd8ea0): read timeout occured
+15.06.2021 15:46:52.824 0 DEBUG    0x0000181c User:{currentUser} HttpConnectionHandler (0xfd8ea0): disconnected
